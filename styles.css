@@ -1,0 +1,187 @@
+/*          Imported Google Font Family Link             */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+span{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    font-size: 20px;
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+nav{
+  height: 10vh;
+  width: 20vw;
+  min-width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.navigation{
+  position: relative;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+}
+
+a:after{
+  content: "";
+  position: absolute;
+  background-color: #e50050;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  transition: color 0.3s;
+  bottom: -10px
+}
+
+a:hover:after{ 
+  width: 100%;
+ }
+
+ion-icon {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+ion-icon {
+    color: white;
+    transition: color 0.3s;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+ion-icon:hover{
+  color: #e50050;
+ }
+
+
+ion-icon {
+  color: white;
+}
+
+.articles {
+    color: white;
+
+}
+.articles:hover{
+  color:#66ffcc;
+}
+
+.About{
+    color: white;
+}
+
+.About:hover{
+  color:#66ffcc;
+}
+
+.Previously{
+    color: white;
+}
+.Previously:hover{
+  color:#66ffcc;
+
+}
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  position: relative;
+  top: 150px;
+  left: 200px;
+  color: white;
+}
+ 
+
+#box{
+  display: flex;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  /* border: 2px solid red; */
+}
+
+#hey{
+  display: flex;
+  position: absolute;
+  top: 310px;
+  left: 200px;
+}
+
+.alpha{
+  color: white;
+  font-size: 80px;
+  font-family: 'Almarai',sans-serif;
+  margin: 4px;
+}
+
+.alpha.animated{
+  color: #e50050;
+  animation: ani 0.7s ease-in-out 1;
+} 
+
+@keyframes ani {
+  0%{
+    transform: scale(1.2,0.5);
+  }
+  16%{
+    transform: scale(1.2,0.5);
+  }
+  25%{
+    transform: scale(1.2,0.5);
+  }
+  32%{
+    transform: scale(0.8,1.1);
+  }
+  48%{
+    transform: scale(0.95,1);
+  }
+  64%{
+    transform: scale(0.8,1.2);
+  }
+  80%{
+    transform: scale(1.15,1);
+  }
+  87%{
+    transform: scale(1.15,1);
+  }
+  90%{
+    /* This will add the shaking effect one time almost at the end   */
+    transform: scale(0.8,1);
+  }
+  95%{
+    transform: scale(1.05,1);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+}
+
